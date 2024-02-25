@@ -13,6 +13,7 @@ export class TodoCreator extends Component {
     }
     render = () =>
         <div className="my-1">
+            <span className="d-flex">Task to ADD</span>
             <input className="form-control"
                 value={this.state.newItemText}
                 onChange={this.updateNewTextValue} />
